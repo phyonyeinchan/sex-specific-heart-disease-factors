@@ -1,0 +1,4 @@
+"0",""
+"0","# Plot Feature Importance for Males"
+"0","importance_male <- importance(rf_male)"
+"0","barplot(t(importance_male), main = ""Male Risk Factor Priorities"", col = ""#1F78B4"", las = 2, ylab = ""Mean Decrease Gini"")"
