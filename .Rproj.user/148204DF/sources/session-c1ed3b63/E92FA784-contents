@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
 ## 1. Introduction and Analytical Objective
-In accordance with the cardiovascular epidemiology research guidelines at Karolinska Institutet, women and men are studied separately due to biological sex playing a pivotal role in the pathogenesis of chronic vascular diseases. This project leverages the longitudinal Framingham Heart Study dataset to systematically unpack whether traditional risk parameters act uniformly or exhibit distinct trajectories across sexes using stratified logistic regression models.
+In accordance with the cardiovascular epidemiology research guidelines, women and men are studied separately due to biological sex playing a pivotal role in the pathogenesis of chronic vascular diseases. This project leverages the longitudinal Framingham Heart Study dataset to systematically unpack whether traditional risk parameters act uniformly or exhibit distinct trajectories across sexes using stratified logistic regression models.
 
 ---
 

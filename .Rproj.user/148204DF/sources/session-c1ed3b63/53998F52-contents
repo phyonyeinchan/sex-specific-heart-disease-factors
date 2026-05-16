@@ -6,7 +6,7 @@
 ---
 
 ## Background & Objective
-This project is strategically designed to align with the core epidemiological paradigms of the Unit for Cardiovascular and Nutritional Epidemiology at the Institute of Environmental Medicine (IMM), Karolinska Institutet. 
+This project is strategically designed to align with advanced core methodological paradigms in cardiovascular and nutritional epidemiology.
 
 Clinical and epidemiological evidence strongly indicates that biological sex serves as a pivotal determinant in the pathogenesis and progression of chronic conditions, particularly coronary heart diseases (CHD). The primary objective of this study is to implement Sex-Stratified Multivariable Logistic Regression models alongside multiplicative Product-Term Interaction Profiles to investigate whether traditional risk parameters (e.g., chronological aging, behavior-related smoking, systolic blood pressure, and metabolic markers) display differential cardiovascular risk trajectories between men and women. 
 
@@ -41,13 +41,14 @@ This study utilizes the landmark, prospective cohort from the **Framingham Heart
 
 ### Classification & Diagnostics Performance Summary:
 
+
 | Diagnostic Framework | Female Cohort Performance | Male Cohort Performance | Global Machine Learning (XGBoost Pipeline) |
 | :--- | :---: | :---: | :---: |
 | **Model Discrimination (ROC-AUC)** | **AUC = 0.743** | **AUC = 0.704** | **AUC Validation Watchlist = 0.738** |
 | **Multicollinearity Safety Check** | All VIF < 1.41 | All VIF < 1.38 | Controlled Sparse Grid Matrix |
 | **ML Balanced Classification** | Gini Priority: Age, sysBP | Gini Priority: sysBP, Age | **Balanced Accuracy = 0.695 (Threshold = 0.22)** |
 
-1. **Divergent Pathogenic Tracks:** Formal interaction term testing and stratified logistic tracking verify that cardiovascular risk scores do not scale uniformly. Aging and metabolic loads accumulate with structurally distinct coefficients across sexes, validating Karolinska IMM's requirement to decouple male and female cohorts.
+1. **Divergent Pathogenic Tracks:** Formal interaction term testing and stratified logistic tracking verify that cardiovascular risk scores do not scale uniformly. Aging and metabolic loads accumulate with structurally distinct coefficients across sexes, validating the methodological requirement to decouple male and female cohorts.
 2. **Distinct Risk Hierarchies:** While classical regressions mark advanced aging and high systolic parameters as persistent risk drivers, stratified Machine Learning Gini profiles reveal subtle structural variations. For instance, metabolic profiles like serum glucose and total cholesterol occupy different priority spots between the male and female diagnostic branches.
 3. **Optimized AI Risk Identification:** Traditional classification cutoffs ($0.50$) heavily under-report cardiovascular disease events due to baseline prevalence skewness. By deploying an optimized clinical threshold ($0.22$) via an XGBoost pipeline, the predictive framework reaches an optimal balance of Sensitivity and Specificity, proving highly stable for personalized precision stratifications.
 
