@@ -3,7 +3,7 @@
     "path": "~/Documents/Karolinska_PhD_Portfolio/sex-specific-heart-disease-factors/index.html",
     "project_path": "index.html",
     "type": "html",
-    "hash": "0",
+    "hash": "68091219",
     "contents": "",
     "dirty": false,
     "created": 1778971057910.0,
@@ -11,14 +11,16 @@
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "9,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1778970955,
+    "lastKnownWriteTime": 1778971891,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1778970955,
+    "last_content_update": 1778971891353,
     "read_only": false,
     "read_only_alternatives": []
 }
