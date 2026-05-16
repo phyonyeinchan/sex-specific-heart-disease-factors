@@ -1,7 +1,7 @@
 # Sex-Specific Risk Factors for Heart Disease: Advanced Logistic Regressions, Interaction Profiling & Stratified Machine Learning
 
 ## Interactive Document
-[👉 CLICK HERE TO VIEW THE FULL INTERACTIVE REPORT](https://github.io)
+[👉 CLICK HERE TO VIEW THE FULL INTERACTIVE REPORT](https://phyonyeinchan.github.io/sex-specific-heart-disease-factors/)
 
 ---
 
